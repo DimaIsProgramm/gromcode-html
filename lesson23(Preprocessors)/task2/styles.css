@@ -19,7 +19,7 @@ body {
   .square {
     background-color: #ff7f50;
     display: inline-flex;
-    margin: -45px 6.1px;
+    margin: -45px 5.7px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
