@@ -18,23 +18,25 @@ body {
 
   @include for-extra-small {
     background-color: #ff7f50;
+    display: inline-flex;
+    margin: auto 8px;
   }
 
   @include for-medium-up {
     background-color: #8a2be2;
-    display: inline-block;
-    margin: 7px;
+    display: inline-flex;
+    margin: auto 8px;
   }
 
   @include for-large-up {
     background-color: #a61;
-    display: inline-block;
-    margin: 7px;
+    display: inline-flex;
+    margin: auto 8px;
   }
 
   @include for-extra-large-up {
     background-color: #c47;
-    display: inline-block;
-    margin: 7px;
+    display: inline-flex;
+    margin: auto 8px;
   }
 }
