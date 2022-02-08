@@ -15,32 +15,32 @@ body {
   background-color: #ff7f50;
   margin: 16px;
 }
-@media screen and (max-width: 600px) and (orientation: portrait) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape) and (orientation: portrait) {
   .square {
     background-color: #ff7f50;
-    display: inline-flex;
-    margin: auto 8px;
+    display: inline-flex !important;
+    margin: -45px 4px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
   .square {
     background-color: #8a2be2;
     display: inline-flex;
-    margin: auto 8px;
+    margin: -45px 4px;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1200px) and (orientation: landscape) {
   .square {
     background-color: #a61;
     display: inline-flex;
-    margin: auto 8px;
+    margin: -45px 4px;
   }
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .square {
     background-color: #c47;
     display: inline-flex;
-    margin: auto 8px;
+    margin: -45px 4px;
   }
 }
 
