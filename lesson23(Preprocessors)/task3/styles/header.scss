@@ -2,7 +2,8 @@
   background-color: #006400;
 }
 .menu__item_active {
-  display: inline;
+  display: block;
+  width: 105px;
   color: yellow;
 }
 
