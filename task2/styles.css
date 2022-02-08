@@ -15,10 +15,10 @@ body {
   background-color: #ff7f50;
   margin: 16px;
 }
-@media screen and (max-width: 600px) and (orientation: landscape) and (orientation: portrait) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
   .square {
     background-color: #ff7f50;
-    display: inline-flex !important;
+    display: inline-flex;
     margin: -45px 6px;
   }
 }
