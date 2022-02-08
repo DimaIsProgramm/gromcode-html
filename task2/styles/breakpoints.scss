@@ -14,7 +14,7 @@ $lg: 1200px;
   }
 }
 @mixin for-large-up {
-  @media screen and (min-width: $md) and (max-width: $lg - 1) and (orientation: landscape) {
+  @media screen and (min-width: $md) and (max-width: $lg) and (orientation: landscape) {
     @content;
   }
 }
