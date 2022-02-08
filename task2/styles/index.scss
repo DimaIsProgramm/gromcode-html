@@ -19,24 +19,24 @@ body {
   @include for-extra-small {
     background-color: #ff7f50;
     display: inline-flex !important;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 
   @include for-medium-up {
     background-color: #8a2be2;
     display: inline-flex;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 
   @include for-large-up {
     background-color: #a61;
     display: inline-flex;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 
   @include for-extra-large-up {
     background-color: #c47;
     display: inline-flex;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 }

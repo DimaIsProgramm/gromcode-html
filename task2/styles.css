@@ -19,28 +19,28 @@ body {
   .square {
     background-color: #ff7f50;
     display: inline-flex !important;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
   .square {
     background-color: #8a2be2;
     display: inline-flex;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1200px) and (orientation: landscape) {
   .square {
     background-color: #a61;
     display: inline-flex;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .square {
     background-color: #c47;
     display: inline-flex;
-    margin: -45px 4px;
+    margin: -45px 6px;
   }
 }
 
