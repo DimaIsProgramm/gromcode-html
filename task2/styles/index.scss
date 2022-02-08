@@ -14,18 +14,20 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 8px;
+  margin: 16px;
 
   @include for-medium-up {
     background-color: #8a2be2;
+    display: inline-block;
   }
 
   @include for-large-up {
     background-color: #a61;
+    display: inline-block;
   }
 
   @include for-extra-large-up {
     background-color: #c47;
-    orientation: portrait;
+    display: inline-block;
   }
 }
